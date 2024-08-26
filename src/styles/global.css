@@ -7,8 +7,8 @@
     src: url("../assets/fonts/FiraCode-VariableFont_wght.ttf") format("truetype");
 }
 @font-face {
-    font-family: "HandWritten";
-    src: url("../assets/fonts/GochiHand-Regular.ttf") format("truetype");
+    font-family: "ZenDots";
+    src: url("../assets/fonts/ZenDots-Regular.ttf") format("truetype");
 }
 
 @font-face {
@@ -21,7 +21,7 @@
         font-family: "FiraCode", monospace;
     }
     .font-handwritten {
-        font-family: "HandWritten", Helvetica;
+        font-family: "ZenDots", Helvetica;
     }
     .font-minecraft {
         font-family: "Minecraft", sans-serif;
