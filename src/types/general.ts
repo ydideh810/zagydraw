@@ -8,7 +8,7 @@ type ElementTypes = "rectangle" | "line" | "text" | "handdrawn" | "image";
 
 const FontTypeOptions = {
     code: "FiraCode",
-    hand: "HandWritten",
+    hand: "ZenDots",
     minecraft: "Minecraft",
 } as const;
 
