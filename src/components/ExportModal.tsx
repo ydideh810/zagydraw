@@ -105,7 +105,7 @@ export function ExportModal() {
                                     new ActionExportScene(ExportTypes.PNG),
                                 )
                             }
-                            className="bg-background-800 m-auto flex w-fit justify-between gap-4 rounded-lg p-4 text-white">
+                            className="bg-red-800 m-auto flex w-fit justify-between gap-4 rounded-lg p-4 text-white">
                             <BsDownload size={20} className="text-white" />
                             <span>PNG</span>
                         </Button>
@@ -127,7 +127,7 @@ export function ExportModal() {
                                     new ActionExportScene(ExportTypes.COPY),
                                 )
                             }
-                            className="bg-background-800 m-auto flex w-fit justify-between gap-4 rounded-lg p-4 text-white">
+                            className="bg-red-800 m-auto flex w-fit justify-between gap-4 rounded-lg p-4 text-white">
                             <FiCopy size={20} className="text-white" />
                             <span>Copy to Clipboard</span>
                         </Button>
