@@ -16,11 +16,17 @@
     src: url("../assets/fonts/PressStart2P-Regular.ttf") format("truetype");
 }
 
+@layer base {
+    body {
+        font-family: "ZenDots", Helvetica, sans-serif;
+    }
+}
+
 @layer utilities {
     .font-firacode {
         font-family: "FiraCode", monospace;
     }
-    .font-handwritten {
+    .font-zendots {
         font-family: "ZenDots", Helvetica;
     }
     .font-minecraft {
