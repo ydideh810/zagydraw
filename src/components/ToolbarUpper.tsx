@@ -52,7 +52,7 @@ export default function ToolbarUpper() {
         "7",
     );
     return (
-        <div className="withFira scrollbar-thin scrollbar-thumb-zinc-600 bg-red-600 fixed left-1/2 top-4 w-11/12 -translate-x-1/2 cursor-default select-none overflow-auto  whitespace-nowrap  rounded-md py-1 md:w-6/12 lg:m-0 lg:w-auto lg:max-w-none">
+        <div className="withFira scrollbar-thin scrollbar-thumb-zinc-600 bg-primary-600 fixed left-1/2 top-4 w-11/12 -translate-x-1/2 cursor-default select-none overflow-auto  whitespace-nowrap  rounded-md py-1 md:w-6/12 lg:m-0 lg:w-auto lg:max-w-none">
             <div className="mx-auto w-fit">
                 <button
                     data-testid="default-cursor"
@@ -60,7 +60,7 @@ export default function ToolbarUpper() {
                     className={clsx(
                         "relative mx-1 h-12 w-12 cursor-pointer rounded-lg text-xl lg:rounded-l-none  ",
                         {
-                            "bg-background-700":
+                            "bg-red-900":
                                 cursorFn === CursorFn.Default || cursorFn === CursorFn.Move,
                         },
                         {
@@ -83,7 +83,7 @@ export default function ToolbarUpper() {
                     className={clsx(
                         "relative mx-1 h-12 w-12 cursor-pointer rounded-lg text-xl  ",
                         {
-                            "bg-background-700": cursorFn === CursorFn.Drag,
+                            "bg-red-900": cursorFn === CursorFn.Drag,
                         },
                         {
                             "hover:bg-primary-400": cursorFn !== CursorFn.Drag,
@@ -105,7 +105,7 @@ export default function ToolbarUpper() {
                     className={clsx(
                         "relative mx-1 h-12 w-12 cursor-pointer rounded-lg text-xl  ",
                         {
-                            "bg-background-700": cursorFn === CursorFn.FreeDraw,
+                            "bg-red-900": cursorFn === CursorFn.FreeDraw,
                         },
                         {
                             "hover:bg-primary-400": cursorFn !== CursorFn.FreeDraw,
@@ -126,7 +126,7 @@ export default function ToolbarUpper() {
                     className={clsx(
                         "relative mx-1 h-12 w-12 cursor-pointer rounded-lg text-xl  ",
                         {
-                            "bg-background-700": cursorFn === CursorFn.Rect,
+                            "bg-red-900": cursorFn === CursorFn.Rect,
                         },
                         {
                             "hover:bg-primary-400": cursorFn !== CursorFn.Rect,
@@ -147,7 +147,7 @@ export default function ToolbarUpper() {
                     className={clsx(
                         "relative mx-1 h-12 w-12 cursor-pointer rounded-lg text-xl  ",
                         {
-                            "bg-background-700": cursorFn === CursorFn.Line,
+                            "bg-red-900": cursorFn === CursorFn.Line,
                         },
                         {
                             "hover:bg-primary-400": cursorFn !== CursorFn.Line,
@@ -165,7 +165,7 @@ export default function ToolbarUpper() {
                     className={clsx(
                         "relative mx-1 h-12 w-12 cursor-pointer rounded-lg text-xl  ",
                         {
-                            "bg-background-700": cursorFn === CursorFn.Text,
+                            "bg-red-900": cursorFn === CursorFn.Text,
                         },
                         {
                             "hover:bg-primary-400": cursorFn !== CursorFn.Text,
@@ -182,7 +182,7 @@ export default function ToolbarUpper() {
                     className={clsx(
                         "relative mx-1 h-12 w-12 cursor-pointer rounded-lg text-xl lg:rounded-r-none ",
                         {
-                            "bg-background-700": cursorFn === CursorFn.Erase,
+                            "bg-red-900": cursorFn === CursorFn.Erase,
                         },
                         {
                             "hover:bg-primary-400": cursorFn !== CursorFn.Erase,
