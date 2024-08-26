@@ -401,7 +401,7 @@ function ZagyDraw() {
                     className={clsx(
                         { "font-firacode ": font === "code" },
                         {
-                            "font-handwritten ": font === "hand",
+                            "font-zendots ": font === "zendots",
                         },
                         {
                             "font-minecraft ": font === "minecraft",
