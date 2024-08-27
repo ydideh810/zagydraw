@@ -5,7 +5,7 @@ import { Point } from "@/utils";
 
 const generateSelectRectElement = (startPos: Point, endPos: Point) => {
     return new ZagyRectangle({
-        fill: "#9b59b6",
+        fill: "#B20000",
         fillStyle: "solid",
         strokeWidth: 1,
         stroke: "transparent",
