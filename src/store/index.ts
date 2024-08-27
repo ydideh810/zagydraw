@@ -167,7 +167,7 @@ export const useStore = create<
     },
     //ConfigState
     fill: "#A7A7A7",
-    stroke: "#9b59b6",
+    stroke: "#B20000",
     strokeWidth: 6,
     strokeLineDash: [],
     fillStyle: "hachure",
