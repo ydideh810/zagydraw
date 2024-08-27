@@ -24,12 +24,12 @@ module.exports = {
                 ring: "hsl(var(--ring))",
                 background: {
                     default: "hsl(var(--background))",
-                    400: "#af7ac5",
-                    500: "#9b59b6",
-                    600: "#884ea0",
-                    700: "#76448a",
-                    800: "#633974",
-                    900: "#512e5f",
+                    400: "#FF6060",
+                    500: "#FF7C44",
+                    600: "#FF2525",
+                    700: "#B20000",
+                    800: "#8D0101", 
+                    900: "#4C0000",
                 },
                 foreground: "hsl(var(--foreground))",
                 primary: {
