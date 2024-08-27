@@ -4,7 +4,7 @@ import { getBoundingRect } from "@/utils";
 function drawCircle(ctx: CanvasRenderingContext2D, x: number, y: number) {
     ctx.save();
     ctx.beginPath();
-    ctx.fillStyle = "#9b59b6";
+    ctx.fillStyle = "#B20000";
     ctx.arc(x, y, 5, 0, 2 * Math.PI);
     ctx.fill();
     ctx.restore();
