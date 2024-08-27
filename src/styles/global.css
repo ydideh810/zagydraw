@@ -133,7 +133,7 @@
         @apply border-border;
     }
     body {
-        @apply bg-background-default text-foreground;
+        @apply bg-red-900 text-foreground;
     }
 }
 
